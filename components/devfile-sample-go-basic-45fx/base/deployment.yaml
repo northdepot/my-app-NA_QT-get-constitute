@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-45fx
     spec:
       containers:
-      - image: quay.io/jduimovich0/user-workload:NA_QT-devfile-sample-go-basic-45fx
+      - image: quay.io/jduimovich0/user-workload@sha256:79437233d276046fd1a1e484179600a446819974fbbe79a3be26fdc2f1e8e638
         name: my-go
         ports:
         - containerPort: 8081
